@@ -1,0 +1,45 @@
+{
+  "name": "web-blockchain",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "=3.7.2",
+    "aos": "^2.3.4",
+    "bootstrap": "=4.5.0",
+    "bxslider": "^4.2.14",
+    "jquery": "=3.5.0",
+    "jquery-migrate": "^3.3.1",
+    "normalize.css": "^8.0.1",
+    "popper.js": "^1.16.0",
+    "react": "^16.9.0",
+    "react-countdown": "^2.3.2",
+    "react-device-detect": "^2.1.2",
+    "react-dom": "^16.9.0",
+    "react-hot-toast": "^2.1.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "sudo aws s3 sync build/ s3://mvscoin.org",
+    "deploy:preview": "sudo aws s3 sync build/ s3://preview.mvscoin.org"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "short_name": "MVS",
+  "name": "MVS",
+  "description": "A Decentralized Currency in Multiverse",
+  "homepage_url": "https://mvscoin.org",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "48x48"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
